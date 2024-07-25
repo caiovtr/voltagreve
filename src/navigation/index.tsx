@@ -1,7 +1,7 @@
 import React from "react";
 import { NavigationContainer } from '@react-navigation/native';
-import { LoginNavigation } from "./loginStack.navigation";
-import { MenuTabs } from "./MenuTab/MenuBottomTab.navigation"
+import { LoginNavigation } from "./stack.navigation";
+import { MenuTabs } from "./tab.navigation"
 
 export function Navigation() {
     return (
